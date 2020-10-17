@@ -8,8 +8,9 @@ const Movie = ({ id,title, image  }) => (
         <Paper className="defaultPaper">
             <h3>{ title }</h3>
             <ul>
-                <li>
-                    <img alt="image" src={ image } width="500" height="500" />
+                <li >
+                    <img alt="image" src={ image } width='80%'   /> 
+
                     <br></br>
                     <strong>Movie: </strong>
                     <span>{ title }</span>
