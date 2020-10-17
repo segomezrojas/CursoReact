@@ -13,7 +13,7 @@ const Details = ({ movie, detail_movie }) => {
         <Paper className="paper defaultPaper">
             <strong className="title">{`${ title }`}</strong><br></br>
 
-            <img alt="image" src={ poster } width="500" height="500" />
+            <img alt="image" src={ poster } width='80%' />
                     <br></br>
 
             <ul>
